@@ -1,6 +1,6 @@
-# COMPAS package template
+# COMPAS Example template
 
-This project automates the set up of a new python-based package for the COMPAS framework using an opinionated Cookiecutter template.
+This project automates the set up of a new example for the COMPAS framework using an opinionated Cookiecutter template.
 
 [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/readme.html#)
 is a command-line utility that lets you quickly bootstrap a new project from a template.
@@ -9,42 +9,14 @@ replacing all the generic info that finds surrounded by templating tags `{{` and
 
 ## Features
 
-* Project directory and file structure
-* Documentation based on [Sphinx](http://www.sphinx-doc.org/en/master/)/[reStructuredText](http://docutils.sourceforge.net/rst.html)
-* Testing framework: [pytest](https://docs.pytest.org/en/latest/)
-* Basic setup script to create pip installable packages
-* Automation of common tasks for development workflow based on [pyinvoke](http://www.pyinvoke.org/) (generate documentation, run tests, check format, etc.)
-* [EditorConfig](https://editorconfig.org/) integration
-* Minimal [Travis-CI integration](https://travis-ci.org)
+* Example directory and file structure
 
 ## What's included
 
-* `.github`
-* `data`
-* `docs`
-* `docsource`
-* `examples`
-* `src`
-* `temp`
-* `tests`
-
-* `.bumpversion.cfg`
-* `.editorconfig`
-* `.gitignore`
-* `.travis.yml`
-
-* `AUTHORS.md`
-* `CHANGELOG.md`
-* `CONTRIBUTING.md`
-* `LICENSE`
-* `MANIFEST.in`
-* `pytest.ini`
-* `README.md`
-* `requirements-dev.txt`
-* `requirements.txt`
-* `setup.cfg`
-* `setup.py`
-* `tasks.py`
+* `{{cookiecutter.example_name}}.py`
+* `{{cookiecutter.example_name}}.rst`
+* `environment_osx.yml`
+* `environment_win.yml`
 
 ## Requirements
 
@@ -54,33 +26,22 @@ Install `cookiecutter` command line: `pip install cookiecutter`
 
 In the terminal, go to the folder where you want to place your project:
 
-```
-$ cd <your-projects-folder>
+```bash
+cd <your-projects-folder>
 ```
 
 Generate a new Cookiecutter template layout:
 
-```
-$ cookiecutter gh:compas-dev/cookiecutter-pypackage
+```bash
+cookiecutter gh:compas-dev/cookiecutter-pypackage
 ```
 
 Go to project folder:
 
-```
-$ cd <project-slug>
+```bash
+cd <project-slug>
 ```
 
 ## Additional settings
 
-To use the coding style feature with [EditorConfig](https://editorconfig.org/):
-
-* Some text editors have a native EditorConfig.
-  If yours doesn't you can download the appropriate plugin [here](https://editorconfig.org/#download).
-
-To activate Continuous Integration:
-
-* [Enable the repository in your Travis CI account](https://travis-ci.org/profile).
-
 ## License
-
-This template is licensed under the terms of the [MIT License](/LICENSE)
