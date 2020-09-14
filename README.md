@@ -1,6 +1,6 @@
 # COMPAS Example template
 
-This project automates the set up of a new example for the COMPAS framework using an opinionated Cookiecutter template.
+Cookietcutter template for COMPAS examples.
 
 [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/readme.html#)
 is a command-line utility that lets you quickly bootstrap a new project from a template.
