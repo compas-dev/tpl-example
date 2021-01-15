@@ -13,10 +13,9 @@ replacing all the generic info that finds surrounded by templating tags `{{` and
 
 ## What's included
 
-* `{{cookiecutter.example_name}}.py`
-* `{{cookiecutter.example_name}}.rst`
-* `environment_osx.yml`
-* `environment_win.yml`
+* `script.py`
+* `doc.rst`
+* `environment.yml`
 
 ## Requirements
 
@@ -27,21 +26,11 @@ Install `cookiecutter` command line: `pip install cookiecutter`
 In the terminal, go to the folder where you want to place your project:
 
 ```bash
-cd <your-projects-folder>
+cd path/to/project/parent
 ```
 
 Generate a new Cookiecutter template layout:
 
 ```bash
-cookiecutter gh:compas-dev/cookiecutter-pypackage
+cookiecutter gh:compas-dev/tpl-example
 ```
-
-Go to project folder:
-
-```bash
-cd <project-slug>
-```
-
-## Additional settings
-
-## License

@@ -1,10 +1,9 @@
 {
-    "example_name": "",
     "example_title": "",
+    "example_name": "{{ cookiecutter.example_title.lower().replace(' ', '-') }}",
     "example_description": "",
     "author_name": "",
     "author_email": "",
-    "github_username": "",
     "_extensions": [
         "jinja2_time.TimeExtension"
     ]

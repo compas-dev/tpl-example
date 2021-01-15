@@ -1,5 +1,6 @@
+name: example
 channels:
-    - conda-forge
+  - conda-forge
 dependencies:
   - python>=3.6
   - pip>=19.0
